@@ -18,4 +18,11 @@ public class OrgTest {
 				System.out.println("Excecute modify org test");
 			}
 
+			
+			@Test (groups="RRT") 
+			public void deleteOrgTest()
+			{
+				System.out.println("Excecute Delete org test");
+			}
+
 }
